@@ -1,0 +1,8 @@
+vip = (input("cliente vip?"))
+valor_compra = float(input("valor da compra:"))
+if vip == "sim or valor_compra >= 100:
+    print("compra com desconto")
+    print("valor_compra * 0.9")
+else:
+    print("compra sem desconto")
+    print("valor_compra")
