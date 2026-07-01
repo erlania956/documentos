@@ -1,3 +1,5 @@
-numero = int(input("digite um numero: "))
-for i in range(1, n + 1):
-    print(f" o fatorial de {numero} x {i} = {numero * i}")
+numero = int(input("qual fatorial voce deseja? "))
+resultado = 1
+for i in range(1, numero + 1):
+    resultado *= i
+print(f" o fatorial de {numero} é {resultado}")
