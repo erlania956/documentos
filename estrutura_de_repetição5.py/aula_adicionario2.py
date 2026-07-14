@@ -5,3 +5,4 @@ perfil_pessoa = {
     "profissão":"dentista."}
 for chave_apontada in perfil_pessoa:
     print(perfil_pessoa[chave_apontada])
+    
