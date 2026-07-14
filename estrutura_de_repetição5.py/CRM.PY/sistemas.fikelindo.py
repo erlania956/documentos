@@ -21,3 +21,14 @@ def cadastrar_cliente():
 def listar_clientes():
     if not clientes:
         print("nenhum cliente cadastrado.")
+        return
+    print("\nLista de clientes:")
+    for cpf, dados in clientes. items():
+        print(f"""CPF: {cpf},
+    Nome: {dados['nome']},
+    Idade: {dados['idade']},
+    Categoria: {dados['categoria']},
+    Compras: {dados['compras']}\n""")
+        
+def buscar_cliente(cpf_busca):
+    
