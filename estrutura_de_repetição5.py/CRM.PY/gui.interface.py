@@ -39,6 +39,19 @@ label_curso.pack()
 entry_curso = tk.Entry(janela)
 entry_curso.pack()
 
+#######################label idade e caixa de texto idade #########################
+
+label_email = tk.Label(janela, text="Digite seu e-mail:")
+label_email.pack()
+label_email = tk.Entry(janela)
+label_email.pack()
+
+#######################label idade e caixa de texto idade #########################
+
+label_endereço = tk.Label(janela, text="Digite seu endereço:")
+label_endereço.pack()
+label_endereço = tk.Entry(janela)
+label_endereço.pack()
 
 
 def exibir_nome():
